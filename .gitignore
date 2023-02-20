@@ -1,0 +1,10 @@
+# dotenv
+.env
+# node modules
+node_modules
+# package lock
+package-lock.json
+# memories
+memories.json
+# conversations log
+conversations.json

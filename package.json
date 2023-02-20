@@ -1,0 +1,34 @@
+{
+  "name": "vegapunk",
+  "version": "0.0.1",
+  "description": "Automating my entire fucking life to avoid people.",
+  "author": "Ber Gutman <bergutman@pm.me>",
+  "repository": "bergutman/vegapunk",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "chatgpt": "^4.4.1",
+    "discord.js": "^14.7.1",
+    "dotenv-safe": "^8.2.0",
+    "fs": "^0.0.1-security"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "chat",
+    "gpt",
+    "gpt-3",
+    "gpt3",
+    "gpt4",
+    "chatbot",
+    "discord",
+    "vegapunk",
+    "onepiece",
+    "ai",
+    "ml",
+    "bot"
+  ]
+}

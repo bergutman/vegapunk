@@ -1,0 +1,37 @@
+{
+    "solo": [
+        {
+            "conversationId": "test id",
+            "parentMessageId": "",
+            "description": ""
+        }
+    ],
+    "family": [
+        {
+            "role": "assistant",
+            "id": "",
+            "parentMessageId": "",
+            "conversationId": "",
+            "text": "",
+            "detail": {
+                "id": "",
+                "object": "text_completion",
+                "created": null,
+                "model": "text-davinci-003",
+                "choices": [
+                    {
+                        "text": "",
+                        "index": 0,
+                        "logprobs": null,
+                        "finish_reason": "stop"
+                    }
+                ],
+                "usage": {
+                    "prompt_tokens": 0,
+                    "completion_tokens": 0,
+                    "total_tokens": 0
+                }
+            }
+        }
+    ]
+}
