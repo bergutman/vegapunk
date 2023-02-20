@@ -27,7 +27,7 @@ async function init() {
 
     await api.sendMessage(prompt, {
         conversationId: last_conversation.conversationId,
-        parentMessageId: last_conversation.parentMessageId
+        parentMessageId: last_conversation.id
     }).then((response) => {
         // Log conversation ids
         console.log(response)
@@ -48,7 +48,7 @@ function message(query, cb) {
 
     api.sendMessage(query, {
         conversationId: last_conversation.conversationId,
-        parentMessageId: last_conversation.parentMessageId
+        parentMessageId: last_conversation.id
     }).then((response) => {
         clearTimeout(tmr);
         // Log conversation ids
@@ -71,7 +71,7 @@ function store(storeval, cb) {
 
     api.sendMessage(storeval, {
         conversationId: last_conversation.conversationId,
-        parentMessageId: last_conversation.parentMessageId
+        parentMessageId: last_conversation.id
     }).then((response) => {
         clearTimeout(tmr);
         // Store value to memories
